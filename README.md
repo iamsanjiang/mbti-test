@@ -1,5 +1,5 @@
 # mbti-test
->Free mbti personality tests can be used to help understand self and others, enhance personal growth, improve career development and relationships.
+>Free mbti personality tests can be used to help understand self and others, enhance personal growth, improve career development and relationships.Test your mbti personality in just 2 minutes!
 
 ## presentation
 
