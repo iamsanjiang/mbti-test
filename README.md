@@ -1,5 +1,5 @@
 # mbti-test
->Free mbti personality tests can be used to help understand self and others, enhance personal growth, improve career development and relationships.Test your mbti personality in just 2 minutes!
+>MBTI personality tests can be used to help understand self and others, enhance personal growth, improve career development and relationships. Here is a streamlined test demo. Test your mbti personality in just 2 minutes!👏👏👏
 
 ## presentation
 
@@ -26,6 +26,30 @@ technical selection:
 - process flow
 
 ![在线制图- drawio (7)](https://github.com/user-attachments/assets/793fc1b0-6419-45db-887f-11e1236f83e5)
+
+## debug notes
+
+- Error importing local images into ts file using taro framework
+> Importing image using the official documentation method👇
+```
+<Image
+ src='../../assets/INTIP.png'
+/>
+```
+> However, the image cannot be rendered because taro3.x does not support commonJS writing.You need to refer to such files via the ES6 import syntax👇
+```
+import {INTP} from '../../assets/INTIP.png';
+<Image
+ src={INTP}
+/>
+```
+
+
+
+
+
+
+
 
 
 
