@@ -12,7 +12,7 @@ IDE:
 > WeChat Developer Tools
 
 technical selection:
-> Taro + taro-ui library + React + TypeScript
+> Taro3.6.28 + taro-ui library + React + TypeScript
 
 ## system design
 - use case
